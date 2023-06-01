@@ -219,12 +219,12 @@ def minimize_language(language, labels, stats, vocab_file, seg_len, input_dir, o
   # do_lower_case = True if 'chinese' in vocab_file else False
   tokenizer = tokenization.FullTokenizer(
                 vocab_file=vocab_file, do_lower_case=do_lower_case)
-  minimize_partition("train", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
-  minimize_partition("dev", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
-  minimize_partition("bio", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
-  minimize_partition("story", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
-  minimize_partition("nov", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
-  minimize_partition("des", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
+  # minimize_partition("train", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
+  # minimize_partition("dev", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
+  # minimize_partition("bio", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
+  # minimize_partition("story", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
+  # minimize_partition("nov", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
+  minimize_partition("trainBias", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
   #minimize_partition("devLi", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
   #minimize_partition("trainLi", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
   #minimize_partition("testLi", language, "conll", labels, stats, tokenizer, seg_len, input_dir, output_dir)
