@@ -5,5 +5,5 @@ Codes related to the dataset and its associated paper
 To regenerate the graphs and figures in the paper, run generate.py and pass locations to the json files from LitBank and BenCo datasets.
 
 ```
-!python path/to/generate.py path/to/BenCo/Datasets path/BenCo
+!python generate.py path/to/BenCoref/Data path/to/litbank.json
 ```
