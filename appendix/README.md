@@ -45,15 +45,13 @@ Some additional results on the Model's performance.
 | | | | | | | | | | | | | | | |
 
 ### Additional Visualizations
-A screenshot from [WebAnno](https://webanno.github.io/webanno/) during annotation phase. In this example, the highlighted words are marked as mentions and same color indicate the mentions belong to the same cluster. A colored line joins the highlighted words creating a chain forming a single cluster.
+A screenshot (Left side) from [WebAnno](https://webanno.github.io/webanno/) during annotation phase. In this example, the highlighted words are marked as mentions and same color indicate the mentions belong to the same cluster. A colored line joins the highlighted words creating a chain forming a single cluster. The supplementary datafile (right side) index.csv contains an index to all the datapoints.
 
-![Alternate text](/appendix/annotation_ss.PNG)
+| WebAnno | IndexFile |
+|:-----|:-------|
+| ![Alternate text](/appendix/annotation_ss.PNG) | ![Alternate text](/appendix/details_description.PNG) |
 
-The supplementary datafile index.csv contains an index to all the datapoints.
-![Alternate text](/appendix/details_description.PNG)
-
-An example taken from Biography test document (ground truth).
-![Alternate text](/appendix/story_gold.PNG)
-
-BERT-base model's prediction on the above biography document.
-![Alternate text](/appendix/story_pred.PNG)
+An example taken from Biography test document.
+| Ground Truth | Prediction (BERT-base) |
+|:-----|:-------|
+| ![Alternate text](/appendix/story_gold.PNG) | ![Alternate text](/appendix/story_pred.PNG) |
